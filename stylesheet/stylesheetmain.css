@@ -1,0 +1,45 @@
+* {
+          font-family: sans-serif;
+}
+
+div {
+          overflow: scroll;
+          height: 700px;
+          
+}
+
+#main {
+          border-collapse: collapse;
+          width: 250%;
+}
+
+th, td {
+          padding: 8px;
+          text-align: left;
+}
+
+th {
+          background-color: #4CAF50;
+          color: white;
+}
+
+tr:nth-child(even) {
+          background-color: #f3f3f3;
+}
+
+tr:hover {
+          background-color: #f3f3f3;
+}
+
+h1 {
+          text-align: center;
+}
+
+h2 {
+          position: sticky;
+          top: 0;
+          text-align: center;
+          padding: 12px;
+          background-color: #4CAF50;
+          color: white;
+}
